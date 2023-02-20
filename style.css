@@ -138,3 +138,58 @@ img {
     padding: 1rem 0;
 }
 
+/*responsive*/
+
+@media screen and (min-width: 768px) {
+    .col_md_4 {
+        width: calc(100% / 12 * 4);
+    }
+
+    .col_md_5 {
+        width: calc(100% / 12 * 5);
+    }
+
+    .col_md_6 {
+        width: calc(100% / 12 * 6);
+    }
+
+    .col_md_7 {
+        width: calc(100% / 12 * 7);
+    }
+
+    .col_md_8 {
+        width: calc(100% / 12 * 8);
+    }
+
+    #testimonials .card {
+        flex-direction: row;
+    }
+
+    #testimonials .card_img {
+        width: 20%;
+    }
+
+    #testimonials .card_content {
+        width: 80%;
+    }
+
+}
+
+@media screen and (min-width: 1200px) {
+    #app_header .menu {
+        width: 70%;
+    }
+
+    .col_lg_3 {
+        width: calc(100% / 12 * 3);
+    }
+
+    .col_lg_4 {
+        width: calc(100% / 12 * 4);
+    }
+
+    .col_lg_9 {
+        width: calc(100% / 12 * 9);
+    }
+
+}
