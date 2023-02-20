@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+#app_header {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+}
+
+.debug{
+width: 100%;
+height: 30px;
+background-color:blue ;
+}
+  
+
+
+.container{
+width: 80%;
+max-width: 1152px;
+margin: auto;
+
+
+}
+
+.row{
+    display: flex;
+    flex-wrap:wrap;  
+    
+  
+}
+
+
+
+.col_1{
+    width: 50%;
+    border: 1px solid black;
+    height: 50px;
+
+    
+}
+.col_2{
+    width: calc(100% / 12 * 3);
+    border: 1px solid black;
+    height: 50px;
+}
+.col_3{
+    width: calc(100% / 12 * 3);
+    border: 1px solid black;
+    height: 50px;
+}
+.col_4{
+    width: calc(100% / 12 * 3);
+    border: 1px solid black;
+    height: 50px;
+}
+.col_5{
+    width: calc(100% / 12 * 3);
+    border: 1px solid black;
+    height: 50px;
+    
+}
