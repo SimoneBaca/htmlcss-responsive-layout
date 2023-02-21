@@ -393,8 +393,7 @@ img {
 
 
 #call_to_action .container,
-#app_footer .container 
-{
+#app_footer .container {
     padding: 1.5rem;
 }
 
@@ -441,27 +440,19 @@ img {
     margin: 0 .25rem;
 }
 
+#app_footer .container {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+}
 
+#app_footer p {
+    text-align: center;
+    margin: 1.5rem 0;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*responsive*/
 
 
 @media screen and (min-width: 768px) {
@@ -505,11 +496,15 @@ img {
         min-height: calc(100% - 1.5rem - 8px);
     }
 
+    #about .img {
+        width: 100%;
+    }
+
+    #about .content .btn {
+        width: 60%;
+    }
+
 }
-
-
-
-
 
 
 @media screen and (min-width: 1200px) {
@@ -576,5 +571,12 @@ img {
     #planning h2 {
         font-size: 2rem;
     }
+
+
+    #about .content .btn {
+        width: 80%;
+    }
+
+
 
 }
